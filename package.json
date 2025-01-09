@@ -10,6 +10,22 @@
     "Other"
   ],
   "main": "./dist/extension.cjs",
+  "license": "MIT",
+  "keywords": [
+    "vim",
+    "neovim",
+    "nvim",
+    "vscode neovim",
+    "vscodevim"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CnsMaple/vscode-neovim-ui-indicator.git"
+  },
+  "homepage": "https://github.com/CnsMaple/vscode-neovim-ui-indicator",
+  "bugs": {
+    "url": "https://github.com/CnsMaple/vscode-neovim-ui-indicator/issues"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },
