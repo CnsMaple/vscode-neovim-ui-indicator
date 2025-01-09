@@ -12,7 +12,7 @@ You can close it by clicking or commanding.
 
 ## VSCode set
 
-default value:
+default value(settings.json):
 
 ```json
 "neovim-ui-indicator.normalColor": "#71B4DD30",
@@ -22,6 +22,8 @@ default value:
 ```
 
 ## neovim set
+
+init.lua
 
 ```lua
 vim.api.nvim_create_autocmd("ModeChanged", {
@@ -42,6 +44,8 @@ vim.api.nvim_create_autocmd("ModeChanged", {
 ## cursor center
 
 This allows you to c-u/c-d and then center the mouse.
+
+init.lua
 
 ```lua
     require('vscode').action("neovim-ui-indicator.cursorCenter")
